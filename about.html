@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en-NZ">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About — Kiwi Pantry</title>
+  <meta name="description" content="The story of Kiwi Pantry — a fictional student demo grocery store built for a university web-analytics assignment.">
+  <link rel="icon" type="image/svg+xml" href="assets/logo.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="about">
+
+  <header class="site-header" data-header>
+    <div class="container header-inner">
+      <a class="brand" href="index.html" data-testid="nav-logo" aria-label="Kiwi Pantry home">
+        <img class="brand-mark" src="assets/logo.svg" alt="" width="42" height="42">
+        <span class="brand-word">Kiwi<em>Pantry</em></span>
+      </a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="index.html" data-nav="home" data-testid="nav-home">Home</a>
+        <a href="products.html" data-nav="shop" data-testid="nav-shop">Shop</a>
+        <a href="about.html" data-nav="about" data-testid="nav-about">About</a>
+        <a href="contact.html" data-nav="contact" data-testid="nav-contact">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <a class="cart-btn" href="cart.html" data-testid="nav-cart" aria-label="View your cart">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+          <span class="cart-count" data-cart-count data-testid="cart-count">0</span>
+        </a>
+        <button class="nav-toggle" type="button" data-nav-toggle data-testid="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="split">
+      <div class="reveal">
+        <span class="eyebrow">Our story</span>
+        <h1>A little store with a big green heart</h1>
+        <p>Kiwi Pantry began — in our imaginations — as a corner dairy in Te Puke that refused to stop stocking the good stuff: sun-gold kiwifruit, proper farmhouse butter, and feijoa everything when the season hits.</p>
+        <p>Today it's a (fictional) online grocer with one simple promise: fresh kai, fair prices, zero fuss. No subscriptions, no surge pricing, no forty-minute scroll to find the butter.</p>
+        <p><strong>The honest bit:</strong> this store doesn't exist. It's a university web-analytics assignment — every page, product and price is pretend, and the real product being studied is <em>you</em> (anonymously, via GA4 events).</p>
+      </div>
+      <div class="photo-frame reveal" style="--d:150ms">
+        <img src="assets/img/about.jpeg" alt="The imagined Kiwi Pantry corner store — wooden shelves stocked with jars and fresh produce crates" loading="lazy">
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:0">
+      <div class="section-head reveal"><h2>What we stand for</h2></div>
+      <div class="value-cards">
+        <div class="value-card reveal">
+          <span class="value-icon"><svg viewBox="0 0 24 24" fill="none" stroke="#3E7C2B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c5.5-3.5 8-8 8-13a8 8 0 1 0-16 0c0 5 2.5 9.5 8 13Z"/><path d="M12 22V8"/></svg></span>
+          <h3>Freshness first</h3>
+          <p>Produce picked ripe and priced to move — because kai should taste like the season it grew in.</p>
+        </div>
+        <div class="value-card reveal" style="--d:100ms">
+          <span class="value-icon"><svg viewBox="0 0 24 24" fill="none" stroke="#3E7C2B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></span>
+          <h3>Fair prices</h3>
+          <p>Everyday low prices in good old NZD — the yellow sticker is a point of pride, not a clearance bin.</p>
+        </div>
+        <div class="value-card reveal" style="--d:200ms">
+          <span class="value-icon"><svg viewBox="0 0 24 24" fill="none" stroke="#3E7C2B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 14l4-4 4 3 5-6"/></svg></span>
+          <h3>An honest demo</h3>
+          <p>Built to teach GA4 e-commerce tracking. Every event is labelled, inspectable and completely harmless.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="analytics-banner" style="border-radius:24px;margin-bottom:4rem;border:2.5px solid var(--ink)">
+      <div class="container section">
+        <h2>For the markers</h2>
+        <p>This site fires all nine GA4 recommended e-commerce events plus <code style="color:var(--yellow)">share</code>. The full measurement plan, UTM links and deployment steps live in the project's README.md.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="footer-brand"><img src="assets/logo.svg" alt="" width="38" height="38"><span>Kiwi<em>Pantry</em></span></div>
+        <p class="footer-note">Fresh kai, fair prices, zero fuss. A fictional online grocer from Aotearoa — built to show off GA4 e-commerce tracking.</p>
+      </div>
+      <div>
+        <h3>Shop</h3>
+        <ul>
+          <li><a href="products.html">All products</a></li>
+          <li><a href="products.html?cat=Snacks">Snacks</a></li>
+          <li><a href="products.html?cat=Dairy">Dairy</a></li>
+          <li><a href="products.html?cat=Drinks">Drinks</a></li>
+          <li><a href="products.html?cat=Household">Household</a></li>
+          <li><a href="products.html?cat=Fruit%20%26%20Veg">Fruit &amp; Veg</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Store</h3>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="cart.html">Your cart</a></li>
+          <li><a href="checkout.html">Demo checkout</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Share the demo</h3>
+        <p class="footer-note">UTM-tagged links — click to copy, post on socials, then watch GA4 attribute the traffic.</p>
+        <ul data-share-list></ul>
+      </div>
+    </div>
+    <div class="footer-disclaimer container">
+      <p><strong>Student demo store.</strong> Kiwi Pantry is fictional and was built for a university web-analytics assignment. No real products are sold, no orders are fulfilled, and no payments are taken.</p>
+      <p>© <span data-year>2026</span> Kiwi Pantry · Plain HTML, CSS &amp; vanilla JS · GA4 e-commerce demo · Prices in NZD</p>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/lenis@1.1.18/dist/lenis.min.js" defer></script>
+  <script src="js/data.js" defer></script>
+  <script src="js/analytics.js" defer></script>
+  <script src="js/cart.js" defer></script>
+  <script src="js/main.js" defer></script>
+</body>
+</html>
