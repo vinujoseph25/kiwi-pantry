@@ -6,13 +6,6 @@ window.KP = window.KP || {};
 
 document.addEventListener("DOMContentLoaded", function () {
 
-  /* Lenis smooth momentum scrolling (CDN, optional enhancement) */
-  if (window.Lenis) {
-    var lenis = new Lenis({ duration: 1.1, smoothWheel: true });
-    var raf = function (time) { lenis.raf(time); requestAnimationFrame(raf); };
-    requestAnimationFrame(raf);
-  }
-
   /* Sticky header shadow */
   var header = document.querySelector("[data-header]");
   var onScroll = function () {
