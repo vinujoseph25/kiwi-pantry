@@ -91,11 +91,11 @@ GA4 attributes traffic automatically when URLs carry UTM parameters. Post these 
 
 | Channel | URL to post |
 |---|---|
-| Facebook | `https://YOUR-DOMAIN/index.html?utm_source=facebook&utm_medium=social&utm_campaign=kiwi_pantry_launch` |
-| Instagram | `https://YOUR-DOMAIN/index.html?utm_source=instagram&utm_medium=social&utm_campaign=kiwi_pantry_launch` |
-| X / Twitter | `https://YOUR-DOMAIN/index.html?utm_source=twitter&utm_medium=social&utm_campaign=kiwi_pantry_launch` |
-| TikTok | `https://YOUR-DOMAIN/index.html?utm_source=tiktok&utm_medium=social&utm_campaign=kiwi_pantry_launch` |
-| Email newsletter | `https://YOUR-DOMAIN/index.html?utm_source=newsletter&utm_medium=email&utm_campaign=kiwi_pantry_launch` |
+| Facebook | `https://vinujoseph25.github.io/kiwi-pantry/index.html?utm_source=facebook&utm_medium=social&utm_campaign=kiwi_pantry_launch` |
+| Instagram | `https://vinujoseph25.github.io/kiwi-pantry/index.html?utm_source=instagram&utm_medium=social&utm_campaign=kiwi_pantry_launch` |
+| X / Twitter | `https://vinujoseph25.github.io/kiwi-pantry/index.html?utm_source=twitter&utm_medium=social&utm_campaign=kiwi_pantry_launch` |
+| TikTok | `https://vinujoseph25.github.io/kiwi-pantry/index.html?utm_source=tiktok&utm_medium=social&utm_campaign=kiwi_pantry_launch` |
+| Email newsletter | `https://vinujoseph25.github.io/kiwi-pantry/index.html?utm_source=newsletter&utm_medium=email&utm_campaign=kiwi_pantry_launch` |
 
 The footer's **"Share the demo"** list copies these for you (and fires a `share` event). Check results in **Reports → Acquisition → Traffic acquisition** (Session source/medium).
 
