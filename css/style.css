@@ -199,6 +199,7 @@ a { color: var(--green-deep); }
 
 @media (max-width: 760px) {
   .nav-toggle { display: inline-flex; }
+  .header-actions { margin-left: auto; }
   .site-nav {
     display: none;
     position: absolute;
